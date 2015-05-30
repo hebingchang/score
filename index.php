@@ -58,41 +58,17 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">概览 <span class="sr-only">(current)</span></a></li>
+			<li class="active"><a href="index.php">首页 <span class="sr-only">(current)</span></a></li>
+            <li><a href="score.php">概览</a></li>
             <!--<li><a href="#">Reports</a></li>-->
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">控制台</h1>
-		  <a class="btn btn-default" href="#" role="button">添加用户</a>
-
-          <h2 class="sub-header">积分概览</h2>
-          <div class="table-responsive">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>姓名</th>
-                  <th>积分</th>
-                  <th>最后积分日期</th>
-                  <th>修改</th>
-				  <th>删除</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>jb康</td>
-                  <td>233</td>
-                  <td>2015/5/24</td>
-                  <td><p><a class="btn btn-default" href="#" role="button">修改积分 &raquo;</a></p></td>
-				  <td><p><a class="btn btn-default" href="#" role="button">删除用户 &raquo;</a></p></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+			<div class="alert alert-info" role="alert">欢迎来到积分系统！</div>
+			欢迎使用Score System。单击左侧导航菜单以开始积分管理。
         </div>
       </div>
     </div>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
